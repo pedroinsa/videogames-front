@@ -1,0 +1,14 @@
+.paginado {
+  display: flex;
+  justify-content: center;
+}
+
+.paginadoSpan {
+  color: red;
+  margin: 3px;
+}
+
+.paginadoSpan:hover {
+  cursor: pointer;
+  color: orange;
+}

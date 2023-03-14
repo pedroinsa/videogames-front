@@ -1,0 +1,36 @@
+.landing button {
+  width: 150%;
+  background-color: rgb(161, 124, 182);
+  color: purple;
+  height: 90px;
+  font-size: 3.5rem;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 10px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px 30px;
+  background-color: pink;
+  padding-bottom: 60px;
+}
+.landing img {
+  width: 50%;
+  height: 40%;
+}
+.landing a {
+  text-decoration: none;
+  display: flex;
+}
+.landing button:hover {
+  background-color: purple;
+  color: white;
+  transform: scale(1.1);
+  border: 2px solid purple;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.searchbar button {
+  background-color: purple;
+  color: white;
+  border-radius: 10%;
+}
+.searchbar {
+  margin-top: 10px;
+}
+.searchbar button {
+  cursor: pointer;
+}

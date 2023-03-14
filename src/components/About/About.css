@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.about p {
+  width: 80%;
+  margin-left: 10%;
+}

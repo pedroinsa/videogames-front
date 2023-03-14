@@ -1,0 +1,32 @@
+.home {
+  /* background-color: palevioletred; */
+  background-image: url("https://fondosmil.com/fondo/28067.jpg");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+}
+.videocards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.videocards a {
+  text-decoration: none;
+  color: purple;
+  width: 30%;
+  background-color: white;
+  border-radius: 7%;
+  margin-top: 3%;
+}
+
+.videocards a:hover {
+  background-color: palevioletred;
+  color: white;
+  border-radius: 7%;
+}
+.home label {
+  color: white;
+}

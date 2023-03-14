@@ -1,0 +1,31 @@
+.create {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.buttonCreate {
+  background-color: purple;
+  color: white;
+  width: 10%;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 5%;
+}
+.buttonCreate:hover {
+  background-color: white;
+  color: rgb(218, 73, 97);
+  color: white;
+  cursor: pointer;
+}
+.createPlatforms {
+  display: flex;
+  justify-content: center;
+}
+.createGenres {
+  display: flex;
+  justify-content: center;
+}
+.create label {
+  color: white;
+}
