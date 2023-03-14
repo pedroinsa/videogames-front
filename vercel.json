@@ -10,4 +10,5 @@
    ],
   "redirects": [
     { "source": "/me", "destination": "/profile.html" }
+    ]
 }
